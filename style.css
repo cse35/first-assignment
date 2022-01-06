@@ -139,13 +139,11 @@ h2{
     padding: 10px 50px;
     background-image: linear-gradient(red,orange);
     border-radius: 7px; 
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
 }
 .community-section{
     display: flex;
     margin-top: 100px;
-
 }
 .community-info{
     width: 80%;
@@ -153,12 +151,10 @@ h2{
     padding-right: 120px;
     background-image: url(images/shapes/shape-6.png);
     background-repeat: no-repeat;
- 
 }
 .community-info p{
     font-size: 20px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px; 
 }
 .community-info h1{
     font-size: 40px;
@@ -170,23 +166,19 @@ h2{
 }
 .community-btn{
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 20px 35px;
     background-image: linear-gradient(rgb(223, 177, 185),rgb(189, 136, 136));
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
 }
 .community-info p{
     margin-bottom: 40px;
-    
 }
-
 .footer-section{
-
     background-color: gray;
     text-align: center;
     padding: 10px 0px;
     margin-top: 70px;
-
 }
 #color-orange{
     color: orange;
@@ -204,11 +196,9 @@ h2{
 }
 #res{
     text-align: center;
-
 }
 .goal-picture{
-    width: 50%;
-    
+    width: 50%; 
 }
 .goal-picture img{
     width: 70%;
@@ -217,22 +207,27 @@ h2{
 .goal-info{
     width: 40%;
     margin-right: 100px; 
-    margin-left: 80px;
-   
-    
+    margin-left: 80px;    
 }
 .goal-info h1{
     font-size: 40px;
 }
 .goal-info p{
     font-size: 20px;
+    margin-bottom: 40px;
 }
 .goal-header h1{
     text-align: center;
     margin-top: 90px;
 }
- 
 #goal-style{
     color: orange;
-    
+}
+.goal-btn{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-image: linear-gradient(rgb(175, 37, 175),rgb(212, 154, 163));
+    border-radius: 7px;
+    margin-left: 90px;
+    color: white;
 }
