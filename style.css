@@ -1,22 +1,27 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
 }
 h1{
-    font-size: 40px;
+    font-size: 48px;
 }
 h2{
-    font-size: 40px;
+    font-size: 48px;
     color: orange;
 }
-
 .first-section{
     display: flex;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 20px;
 }
 .first-section p{
     margin-bottom: 40px;
+    font-size: 20px;
 }
 .mission-site{
     width: 40%;
@@ -24,29 +29,34 @@ h2{
     margin-right: 5%;
     padding-left: 10px;
     margin-top: 10px;
-
 }
 .mission-site img{
-    width: 70%;
-    
+    width: 70%; 
 }
 .details-btn{
     text-decoration: none;
-    background-image: linear-gradient(orange ,green);
+    background-image: linear-gradient(skyblue ,rgb(206, 154, 154));
     padding: 10px 40px;
     border-radius: 5px;
 
 }
 .mission{
-    border-left: 5px solid orange;
+    border-left: 5px solid red;
+    border-radius: 2px;
 }
 #scrool{
-    margin-left: 270px;
-    margin-top: 20px;
+    margin-left: 170px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .mission-header{
     text-align: center;
     margin-bottom: 70px;
+    margin-top: 130px;
+}
+.mission-item h1{
+    font-size: 25px;
+
 }
 #header-style{
     color: orange;
@@ -59,8 +69,6 @@ h2{
 }
 .mission-item img{
     width: 40%;
-     
-   
 }
 .second-section{
     display: flex;
@@ -69,37 +77,37 @@ h2{
     margin-right: 6%;
     padding-left: 90px;
     padding-right: 70px;
-   
 }
 #mission-1{
-    background-image:linear-gradient(blue,green) ;
+    background-color: rgb(219, 190, 164);
     padding-left: 10px;
     margin-bottom: 40px;
-    height: 350px;
+    height: 400px;
     margin-left: 40px;
     border-radius: 20px;
     padding-right: 10px;
     text-align: justify;
-    
-    
+}
+.mission h1, h2{
+    padding-left: 10px;
 }
 #vision{
-    background-color: rgb(226, 173, 173);
+    background-color: rgba(140, 209, 207, 0.719) ;
     padding-left: 10px;
     margin-bottom: 40px;
-    height: 350px;
+    height: 400px;
     margin-left: 40px;
     border-radius: 20px;
     padding-right: 10px;
     text-align: justify;
 }
 #goals{
-    background-image:linear-gradient(gray,rgb(97, 72, 240)) ;
+   background-color: rgb(212, 190, 190) ;
     padding-left: 10px;
     margin-bottom: 40px;
     margin-left: 40px;
     border-radius: 20px;
-    height: 350px;
+    height: 400px;
     padding-right: 10px;
     text-align: justify;
 }
@@ -108,26 +116,123 @@ h2{
 }
 .dev-img img{
     width: 50%;
-    margin-left: 230px;
+    margin-left: 100px;
 }
 .devlop-section{
     display: flex;
-    margin-top: 70px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.dev-info h1{
+    font-size: 40px;  
 }
 .dev-info{
     width: 30%;
     margin-right: 120px;
 }
 .dev-info p{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
 }
 .link-doc{
     text-decoration: none;
     padding: 10px 50px;
     background-image: linear-gradient(red,orange);
-    border-radius: 7px;
+    border-radius: 7px; 
+    margin-bottom: 20px;
+    
 }
 .community-section{
     display: flex;
+    margin-top: 100px;
+
+}
+.community-info{
+    width: 80%;
+    margin-left: 150px;
+    padding-right: 120px;
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+ 
+}
+.community-info p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+.community-info h1{
+    font-size: 40px;
+}
+.community-picture img{
+    width: 60%;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.community-btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(223, 177, 185),rgb(189, 136, 136));
+    border-radius: 5px;
+    color: white;
+}
+.community-info p{
+    margin-bottom: 40px;
+    
+}
+
+.footer-section{
+
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0px;
     margin-top: 70px;
+
+}
+#color-orange{
+    color: orange;
+}
+.footer-section h1{
+    color: white;
+}
+.footer-section p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.goal-section{
+    display: flex;
+    margin-top: 70px;
+}
+#res{
+    text-align: center;
+
+}
+.goal-picture{
+    width: 50%;
+    
+}
+.goal-picture img{
+    width: 70%;
+    margin-left:150px;
+}
+.goal-info{
+    width: 40%;
+    margin-right: 100px; 
+    margin-left: 80px;
+   
+    
+}
+.goal-info h1{
+    font-size: 40px;
+}
+.goal-info p{
+    font-size: 20px;
+}
+.goal-header h1{
+    text-align: center;
+    margin-top: 90px;
+}
+ 
+#goal-style{
+    color: orange;
+    
 }
